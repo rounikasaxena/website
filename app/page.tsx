@@ -9,7 +9,7 @@ import MiniPlayer from "./components/MiniPlayer";
 import { AeroIcon } from "./components/Icons";
 
 /** Which page the site opens on. firstIndexOf("projects") = first project. Use 0 for About. */
-const START = firstIndexOf("projects");
+const START = firstIndexOf("about");
 
 /** How long things take (ms). Raise these for a slower, calmer feel. */
 const FADE_OUT = 260;
